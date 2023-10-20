@@ -42,7 +42,6 @@ body{
     position: fixed;
     width: 100%;
     height: 45px;
-    /* border-radius: 0 0 45px 45px; */
     background:linear-gradient(45deg,#0a7beb,#0b1587,#0a7beb,#0b1587);
     z-index: 1;
 }
@@ -480,7 +479,13 @@ background-size: contain;
 } 
 
 
+/* view 4  */
 
+
+.view-4{
+  width: 100%;
+  height: 100vh;
+}
 .projects-container{
   display:grid;
   justify-content: center;
@@ -539,14 +544,6 @@ input:checked ~ article .front{
   border-radius: 50px;
   background:linear-gradient(45deg,#0a7beb,#0b1587,
   #0a7beb,#0b1587);
-}
-
-/* view 4  */
-
-
-.view-4{
-  width: 100%;
-  height: 100vh;
 }
 
 
@@ -732,7 +729,7 @@ input:checked ~ article .front{
 /* knowledge container */
 .view-3{
   height:100vh;
-  /* font-size: 14px; */
+  width: 100%;
 }
 
 
@@ -753,6 +750,7 @@ input:checked ~ article .front{
 
 /* ------------------ */
 .view-4{
+  width: 100%;
   height: 100vh;
 }
 .projects-container{
@@ -761,13 +759,13 @@ input:checked ~ article .front{
   grid-template-columns: repeat(2,200px);
   row-gap: 50px;
   position:relative;
-  top:180px;
+  top:150px;
 }
 article{
   position: relative;
   perspective: 1000px;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
 }
 .projects-content{
   top:30px;
@@ -775,18 +773,23 @@ article{
 span .fa-solid{
   display: none;
 }
-.projects-content-subject{
+label{
+  display: flex;
+  justify-content: center;
+}
+.projects-content{
   width: 100px;
   position: relative;
   left: 0px;
   top: 30px;
 }
-.projects-card-container  p,.card-container .back h2{
+.back  p, .back h2{
   display: none;
 }
 
 /* ------------------------- */
 footer{
+  width: 100%;
   height: 50vh;
   background:linear-gradient(45deg,#0a7beb,#0b1587,
   #0a7beb,#0b1587);
