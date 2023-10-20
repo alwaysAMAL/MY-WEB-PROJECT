@@ -778,10 +778,10 @@ label{
   justify-content: center;
 }
 .projects-content{
-  width: 100px;
+  width: 140px;
   position: relative;
-  left: 0px;
-  top: 30px;
+  left: -5px;
+  top: 40px;
 }
 .back  p, .back h2{
   display: none;
