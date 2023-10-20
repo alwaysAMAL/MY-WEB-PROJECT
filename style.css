@@ -110,16 +110,6 @@ body{
 }
 
 
-/* .headings{
-  font-size: 40px;
-  color: #000;
-  text-align: center;
-  position: relative;
-  top: 1000px;
-  text-transform: capitalize;
-  text-decoration: underline;
-} */
-
 
 
 .nav-burger{
@@ -742,15 +732,36 @@ input:checked ~ article .front{
 /* knowledge container */
 .view-3{
   height:100vh;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
-.projects-conatiner{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ */
+.view-4{
+  height: 100vh;
+}
+.projects-container{
   display:grid;
   justify-content: center;
-  grid-template-columns: repeat(2,150px);
-  row-gap: 100px;
-  position: relative;
-  top:120px;
+  grid-template-columns: repeat(2,200px);
+  row-gap: 50px;
+  position:relative;
+  top:180px;
 }
 article{
   position: relative;
@@ -770,12 +781,16 @@ span .fa-solid{
   left: 0px;
   top: 30px;
 }
-.cards-container  p,.cards-container  h2{
+.projects-card-container  p,.card-container .back h2{
   display: none;
 }
 
-
-
+/* ------------------------- */
+footer{
+  height: 50vh;
+  background:linear-gradient(45deg,#0a7beb,#0b1587,
+  #0a7beb,#0b1587);
+}
 
 
 }
