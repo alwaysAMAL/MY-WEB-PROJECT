@@ -823,7 +823,7 @@ footer{
   grid-template-columns: repeat(2,200px);
   row-gap: 50px;
   position:relative;
-  top:150px;
+  top:100px;
 }
 article{
   position: relative;
