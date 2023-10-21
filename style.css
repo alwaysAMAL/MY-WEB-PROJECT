@@ -502,7 +502,12 @@ background-size: contain;
 .knowledge-content > img{
   width: 100px;
   height: 100px;
+  transition: transform 0.3s;
 }
+.knowledge-content > img:hover{
+  transform: scale(1.1);
+}
+
 /* view 4  */
 
 
@@ -577,6 +582,32 @@ footer{
   height: 50vh;
   background:linear-gradient(45deg,#0a7beb,#0b1587,
   #0a7beb,#0b1587);
+}
+.contact{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4,100px);
+  position: relative;
+  list-style: none;
+  top: 200px;
+  /* align-content: center; */
+}
+.contact li i{
+  color: #fff;
+  font-size: 30px;
+  transition: transform 0.3s;
+}
+.contact li i:hover{
+  transform: scale(1.2);
+}
+.copy{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 250px;
+}
+.copy a{
+  color: rgba(48,238,226,1);
 }
 
 
@@ -820,8 +851,10 @@ label{
 footer{
   height: 50vh;
 }
-
-
+.contact{
+  grid-template-columns: repeat(4,80px);
+  top: 150px;
+}
 }
 
 
