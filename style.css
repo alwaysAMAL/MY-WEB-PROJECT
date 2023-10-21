@@ -107,14 +107,9 @@ body{
     width: 100%;
     height:95vh;
 }
-
-
-
-
 .nav-burger{
   display: none;
 }
-
 /*---------about section------------*/
 
 .about-me{
@@ -124,6 +119,7 @@ body{
   justify-content: center;
   align-items: center;
   width:100%;
+  overflow: hidden;
   height: 600px;
 }
 .intro-about-me{
@@ -204,6 +200,7 @@ body{
 
   .card-container{
     width: 100%;
+    overflow: hidden;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -478,6 +475,7 @@ background-size: contain;
   background:linear-gradient(45deg,#0a7beb,#0b1587,#0a7beb,#0b1587);
 } 
 .knowledge-container{
+  overflow: hidden;
   display: flex;
  place-content: center;
  position: relative;
@@ -516,6 +514,7 @@ background-size: contain;
   height: 100vh;
 }
 .projects-container{
+  overflow: hidden;
   display:grid;
   justify-content: center;
   grid-template-columns: repeat(3,300px);
@@ -578,6 +577,7 @@ input:checked ~ article .front{
 
 /* ---------------------- */
 footer{
+  overflow: hidden;
   width: 100%;
   height: 50vh;
   background:linear-gradient(45deg,#0a7beb,#0b1587,
@@ -749,6 +749,7 @@ footer{
 }
 
 .card-container{
+  width: 100%;
   flex-direction: column;
   gap: 10px;
   margin-top:-40px;
@@ -791,7 +792,9 @@ footer{
   height:100vh;
   width: 100%;
 }
-
+.knowledge-container{
+  width: 100%;
+}
 .knowledge-container-content{
   grid-template-columns: repeat(3,70px); 
   gap: 50px;
@@ -815,6 +818,7 @@ footer{
 }
 .projects-container{
   display:grid;
+  width: 100%;
   justify-content: center;
   grid-template-columns: repeat(2,200px);
   row-gap: 50px;
@@ -850,8 +854,10 @@ label{
 /* ------------------------- */
 footer{
   height: 50vh;
+  width: 100%;
 }
 .contact{
+  width: 100%;
   grid-template-columns: repeat(4,80px);
   top: 150px;
 }
