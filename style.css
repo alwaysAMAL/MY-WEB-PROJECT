@@ -628,6 +628,7 @@ footer{
   justify-content: center;
   position: relative;
   top: 250px;
+  color:#fff;
 }
 .copy a{
   color: rgba(48,238,226,1);
