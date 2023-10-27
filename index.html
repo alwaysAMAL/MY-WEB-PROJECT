@@ -12,6 +12,43 @@
     <div id="view1" class="view-1"> 
     <header>
         <h3 class="nav-logo">Amal Vijayan 😏</h3>
+            <a  onclick=showSidebar() class="nav-burger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        <!-- responsive navigation bar -->
+        <nav class="navbar">
+            <ul class="nav-elements">
+                <li class="hide" onclick=hideSidebar()>
+                    <a>
+                <i class="fa fa-xmark"></i>
+                    </a>
+                </li>
+                <li class="elements">
+                    <a href="#view1" class="nav-ele">
+                        <i class="fa fa-house"></i> About
+                    </a>    
+                </li>
+                <li class="elements">
+                    <a href="#view2"class="nav-ele">
+                        <i class="fa fa-circle-nodes"></i> Connect
+                    </a></li>
+                <li class="elements">
+                    <a href="#view3" class="nav-ele">
+                        <i class="fa fa-book"></i> Knowledge
+                    </a>   
+                </li>
+                <li class="elements">
+                    <a href="#view4" class="nav-ele"">
+                        <i class="fa fa-database"></i> Projects
+                    </a>   
+                </li>
+                <li class="elements">
+                    <a href="#view5" class="nav-ele">
+                        <i class="fa fa-message"></i> Contact
+                    </a>   
+                </li>
+            </ul>  
+        </nav>
         <nav class="navbar-menu">
             <ul>  
                 <li><a href="#view1" class="item one">
@@ -46,42 +83,44 @@
                         <span class="flicker">Contact</span>
                     </div>
                 </a></li>
+                <li onclick=showSidebar() class="nav-burger"> 
+                    <a href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+            </li>
+            
             </ul>
         </nav>
 
-        <!-- responsive navigation bar -->
 
-        <label id="navbar">
-            <article class="nav-burger">
-                <i class="fa-solid fa-bars"></i>
-            <div class="nav-elements">
-                <span class="elements">
+        <!-- <nav id="navbar">
+            <ul class="nav-elements">
+                <li class="elements">
                     <a href="#view1" class="nav-ele">
                         <i class="fa fa-house"></i> About
                     </a>    
-                </span>
-                <span class="elements">
+                </li>
+                <li class="elements">
                     <a href="#view2"class="nav-ele">
                         <i class="fa fa-circle-nodes"></i> Connect
-                    </a></span>
-                <span class="elements">
+                    </a></li>
+                <li class="elements">
                     <a href="#view3" class="nav-ele">
                         <i class="fa fa-book"></i> Knowledge
                     </a>   
-                </span>
-                <span class="elements">
+                </li>
+                <li class="elements">
                     <a href="#view4" class="nav-ele"">
                         <i class="fa fa-database"></i> Projects
                     </a>   
-                </span>
-                <span class="elements">
+                </li>
+                <li class="elements">
                     <a href="#view5" class="nav-ele">
                         <i class="fa fa-message"></i> Contact
                     </a>   
-                </span>
-            </div>  
-            </article>
-    </label>
+                </li>
+            </ul>  
+        </nav> -->
     </header>
     <div class="intro-container">
                 <img src="IMAGES/my.jpg" alt="my image" class="me">
