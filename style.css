@@ -539,7 +539,6 @@ background-size: contain;
   height: 100vh;
 }
 .projects-container{
-  /* overflow: hidden; */
   display:grid;
   justify-content: center;
   grid-template-columns: repeat(3,300px);
@@ -871,6 +870,7 @@ footer{
 }
 .projects-container{
   display:grid;
+  overflow: hidden;
   width: 100%;
   justify-content: center;
   grid-template-columns: repeat(2,200px);
