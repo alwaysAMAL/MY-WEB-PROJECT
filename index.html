@@ -12,16 +12,16 @@
     <div id="view1" class="view-1"> 
     <header>
         <h3 class="nav-logo">Amal Vijayan 😏</h3>
-            <a  onclick=showSidebar() class="nav-burger">
-                <i class="fa-solid fa-bars"></i>
+                <input type="checkbox" id="burger-c" class="burger-c">
+                <label for="burger-c" class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
             </a>
         <!-- responsive navigation bar -->
         <nav class="navbar">
             <ul class="nav-elements">
-                <li class="hide" onclick=hideSidebar()>
-                    <a>
-                <i class="fa fa-xmark"></i>
-                    </a>
                 </li>
                 <li class="elements">
                     <a href="#view1" class="nav-ele">
@@ -49,6 +49,7 @@
                 </li>
             </ul>  
         </nav>
+    </label>
         <nav class="navbar-menu">
             <ul>  
                 <li><a href="#view1" class="item one">
@@ -83,11 +84,6 @@
                         <span class="flicker">Contact</span>
                     </div>
                 </a></li>
-                <li onclick=showSidebar() class="nav-burger"> 
-                    <a href="#">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
-            </li>
             
             </ul>
         </nav>
