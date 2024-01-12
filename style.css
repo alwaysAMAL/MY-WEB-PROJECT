@@ -646,10 +646,10 @@ footer {
   .slider::before {
     position: absolute;
     content: "";
-    left: 3px;
-    bottom: 3px;
-    width: 12px;
-    height: 12px;
+    left: 2.5px;
+    bottom: 1.5px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: #fff;
     transition: 0.4s;
@@ -661,7 +661,7 @@ footer {
     box-shadow: 0 0 1px #2196f3;
   }
   .toggle-btn:checked ~ .slider::before {
-    transform: translateX(13px);
+    transform: translateX(14px);
   }
   .night-mode {
     text-align: center;
